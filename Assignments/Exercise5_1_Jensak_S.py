@@ -1,0 +1,8 @@
+print("========4 Way Calculator=======")
+a = float(input("Put your number"))
+b = float(input("Put your Second number"))
+print("Result")
+print(a,"+",b,"=",a+b)
+print(a,"-",b,"=",a-b)
+print(a,"*",b,"=",a*b)
+print(a,"/",b,"=",a/b)
