@@ -11,6 +11,9 @@ def member():
         print("Welcome back mate :)")
         print("Can I Help you today?")
         print("")
+    elif memberlogin != "jensak" or memberpassword != "1234":
+        print("User not found!!")
+        return member()
 
 
 def menu():
@@ -27,6 +30,8 @@ def menu():
         if useragree == "yes":
             print("ok cool Thx and have a good time!!")
         elif useragree == "no":
+            return menu()
+        elif useragree != "yes" or useragree != "no":
             return menu()
     if userchoose == "b":
         print("4$ per dvd")
